@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left {
+    background-color: #016D94;
+    padding: 40px;
+    color: white;
+}
+
+.profile {
+    text-align: center;
+    border-bottom: 2px solid #00B4D8;
+    padding-bottom: 20px;
+}
+
+.imgbox {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.imgbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.title {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.contact ul, .education ul {
+    list-style: none;
+}
+
+.contact ul li, .education ul li {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.contact ul li i, .education ul li i {
+    margin-right: 10px;
+    color: #00B4D8;
+    font-size: 18px;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.right {
+    background-color: #EAEAE8;
+    padding: 40px;
+}
+
+.profile-info {
+    background: #016D94;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-info h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.profile-info p {
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.certifications {
+    margin-bottom: 20px;
+}
+
+.certifications h2 {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.certification-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.certification-card h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.certification-card p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.projects {
+    margin-bottom: 20px;
+}
+
+.projects h2 {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.project-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.project-card p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h2 {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.experience-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.experience-card i {
+    font-size: 20px;
+    color: #00B4D8;
+    margin-right: 10px;
+}
+
+.experience-card h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.experience-card p {
+    font-size: 0.9em;
+    color: #555;
+}
